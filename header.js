@@ -22,7 +22,12 @@ function readline() {
     return v8_log_lines.shift();
 }
 
-// TODO: adjust arguments for runtime environment (mac, windows)
 arguments = process.argv.slice(2);
+if ('darwin' === process.platform) {
+    arguments.push('--mac');
+    arguments.push('--nm=mac-nm');
+}
+
+
 v8_log_lines = read('v8.log').split('\n');
 
