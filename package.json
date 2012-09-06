@@ -1,0 +1,24 @@
+{
+  "name": "node-tick-processor",
+  "version": "0.0.1",
+  "description": "easy-to-install processor for the v8 profiler log",
+  "bin": {
+      "node-tick-processor": "bin/node-tick-processor",
+      "mac-nm": "bin/mac-nm"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drewfish/node-tick-processor.git"
+  },
+  "keywords": [
+    "v8",
+    "profiler",
+    "profiling",
+    "v8.log"
+  ],
+  "author": "Drew Folta <drew@folta.net>",
+  "license": "mixed"
+}

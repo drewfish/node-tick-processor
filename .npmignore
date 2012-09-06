@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+
+v8
+bin/.placeholder
+header.js
+rebuild.sh
+
