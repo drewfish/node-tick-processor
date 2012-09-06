@@ -15,3 +15,6 @@ node_modules
 npm-debug.log
 
 v8
+bin/mac-nm
+bin/node-tick-processor
+
