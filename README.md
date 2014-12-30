@@ -7,7 +7,7 @@ This is little more than a repackaging of the "tick processor" that ships with t
 
 
 ## Installation
-`$ npm install node-tick-processor`
+`$ npm install -g node-tick-processor`
 
 
 ## Usage
